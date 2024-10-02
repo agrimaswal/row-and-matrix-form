@@ -1,0 +1,13 @@
+n = [[10, 20, 30], [40, 50, 60], [70, 80, 90]]
+
+print("matrix form:")
+for row in n:
+    print(row)
+
+print("row form:") 
+
+for row in n:
+    for element in row:
+        print(element,end=" ")
+
+    print()
